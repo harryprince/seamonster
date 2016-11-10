@@ -1,0 +1,43 @@
+---
+title: 'Notebook: htmwlwidgets'
+output:
+  html_document: default
+  html_notebook: default
+  pdf_document: default
+---
+
+## dygraphs
+
+https://github.com/rstudio/dygraphs
+
+Dygraphs provides rich facilities for charting time-series data in R and includes support for many interactive features including series/point highlighting, zooming, and panning.
+
+`r Sys.Date()`
+
+```{r echo = TRUE}
+library(dygraphs)
+dygraph(nhtemp, main = "CH Robionson") %>% 
+  dyRangeSelector(dateWindow = c("1920-01-01", "1960-01-01"))
+
+```
+
+
+
+```{r}
+plot(mtcars)
+```
+
+## Leaflet
+
+http://rstudio.github.io/leaflet/
+
+Leaflet is a JavaScript library for creating dynamic maps that support panning and zooming along with various annotations like markers, polygons, and popups.
+
+```{r, message=FALSE, warning=FALSE, echo = FALSE}
+library(leaflet)
+cities <- read.csv("cities.csv")
+leaflet(cities) %>% addTiles() %>%
+  addCircles(lng = ~Long, lat = ~Lat, weight = 1,
+    radius = ~sqrt(Pop) * 30, popup = ~City
+  )
+```
