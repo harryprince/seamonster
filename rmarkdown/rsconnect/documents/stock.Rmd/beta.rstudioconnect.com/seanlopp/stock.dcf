@@ -1,0 +1,9 @@
+name: stock
+account: seanlopp
+server: beta.rstudioconnect.com
+appId: 317
+bundleId: 2942
+url: https://beta.rstudioconnect.com/seanlopp/stock/
+when: 1471522825.88411
+asMultiple: FALSE
+asStatic: FALSE
