@@ -1,0 +1,10 @@
+name: access_to_care_rmd
+title: Access to Care RMD
+account: edgar
+server: colorado.rstudio.com
+appId: 52
+bundleId: 146
+url: http://colorado.rstudio.com:3939/content/52/
+when: 1479318600.24047
+asMultiple: FALSE
+asStatic: FALSE
