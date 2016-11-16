@@ -1,6 +1,7 @@
-library(leaflet)
 library(shiny)
+library(leaflet)
 library(tidyverse)
+library(highcharter)
 
 shinyUI(fluidPage(
   navbarPage("Access to Hospital Care", id="Nav",
