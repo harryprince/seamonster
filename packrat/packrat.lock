@@ -38,6 +38,12 @@ Hash: 632aad207ab2e551b33990c9f09ab8af
 Requires: RColorBrewer, colorspace, digest, doParallel, foreach,
     ggplot2, gridBase, pkgmaker, registry, reshape2, rngtools, stringr
 
+Package: PKI
+Source: CRAN
+Version: 0.1-3
+Hash: aca3e459c659b6d8266538520f72ba19
+Requires: base64enc
+
 Package: R6
 Source: CRAN
 Version: 2.1.3
@@ -47,6 +53,17 @@ Package: RColorBrewer
 Source: CRAN
 Version: 1.1-2
 Hash: c0d56cd15034f395874c870141870c25
+
+Package: RCurl
+Source: CRAN
+Version: 1.95-4.8
+Hash: 79c7d5a8684e44e0e3426d3093aa7d90
+Requires: bitops
+
+Package: RJSONIO
+Source: CRAN
+Version: 1.3-0
+Hash: fb672e20eb6f3010a3639f855d8ef6de
 
 Package: RMySQL
 Source: CRAN
@@ -198,6 +215,12 @@ Version: 2.3-13
 Hash: 4c5ae92368e1cc01c26afd1e67b66cd3
 Requires: modeltools
 
+Package: forcats
+Source: CRAN
+Version: 0.1.1
+Hash: 7f93e560ba45f278e1d66df743747d2a
+Requires: magrittr, tibble
+
 Package: foreach
 Source: CRAN
 Version: 1.4.3
@@ -254,6 +277,12 @@ Package: gtable
 Source: CRAN
 Version: 0.2.0
 Hash: cd78381a9d3fea966ac39bd0daaf5554
+
+Package: haven
+Source: CRAN
+Version: 1.0.0
+Hash: 2fee7590629252b68fbfbfa25a9bcc0f
+Requires: BH, Rcpp, hms, readr, tibble
 
 Package: hexbin
 Source: CRAN
@@ -406,6 +435,12 @@ Source: CRAN
 Version: 1.5-5
 Hash: d0d5efbb1fb26d2dc5f9394c223084b5
 
+Package: modelr
+Source: CRAN
+Version: 0.1.0
+Hash: 7c9848bf4d734f38b8ce91022d8de949
+Requires: broom, dplyr, lazyeval, magrittr, purrr, tibble, tidyr
+
 Package: modeltools
 Source: CRAN
 Version: 0.2-21
@@ -526,6 +561,12 @@ Version: 1.0.0
 Hash: d7cf8e4bfe7f5fa25d908362735bc9ae
 Requires: BH, R6, Rcpp, curl, hms, tibble
 
+Package: readxl
+Source: CRAN
+Version: 0.1.1
+Hash: b8f078ed7d05f35efd435db8b7be0ebf
+Requires: Rcpp
+
 Package: registry
 Source: CRAN
 Version: 0.3
@@ -573,16 +614,34 @@ Source: CRAN
 Version: 1.0-2
 Hash: c270982b60661aaf11964b7763e39cdd
 
+Package: rsconnect
+Source: CRAN
+Version: 0.5
+Hash: 28251eb9c94bc740f5fed69cc85388fd
+Requires: PKI, RCurl, RJSONIO, digest, packrat, rstudioapi, yaml
+
 Package: rstudioapi
 Source: CRAN
 Version: 0.6
 Hash: fd256f8bfb9a64cc35f98b0decb1a79f
+
+Package: rvest
+Source: CRAN
+Version: 0.3.2
+Hash: c69f7526520bad66fd2111ebe8b1364b
+Requires: httr, magrittr, selectr, xml2
 
 Package: scales
 Source: CRAN
 Version: 0.4.0
 Hash: c4a91e7a322e03813b68b73940ce031f
 Requires: RColorBrewer, Rcpp, dichromat, labeling, munsell, plyr
+
+Package: selectr
+Source: CRAN
+Version: 0.3-0
+Hash: 405f00513f6b52d170ddd713d12e9ab9
+Requires: stringr
 
 Package: shiny
 Source: CRAN
@@ -635,6 +694,14 @@ Version: 0.6.0
 Hash: daf06bb30f2d9581e69609e0c0f7d38a
 Requires: Rcpp, dplyr, lazyeval, magrittr, stringi, tibble
 
+Package: tidyverse
+Source: CRAN
+Version: 1.0.0
+Hash: 7adbfd73ba78f6c97f54e45df607850a
+Requires: DBI, broom, dplyr, forcats, ggplot2, haven, hms, httr,
+    jsonlite, lubridate, magrittr, modelr, purrr, readr, readxl, rvest,
+    stringr, tibble, tidyr, xml2
+
 Package: timeDate
 Source: CRAN
 Version: 3012.100
@@ -672,6 +739,12 @@ Source: CRAN
 Version: 1.0.2
 Hash: 774eb7be9087cdc24b53b74e5359cfac
 
+Package: xml2
+Source: CRAN
+Version: 1.0.0
+Hash: a55c497b694e044296830eb8ac5c2fee
+Requires: BH, Rcpp
+
 Package: xtable
 Source: CRAN
 Version: 1.8-2
@@ -687,6 +760,11 @@ Package: yaml
 Source: CRAN
 Version: 2.1.13
 Hash: 4854ccabebc225e8a7309fb4a74980de
+
+Package: zipcode
+Source: CRAN
+Version: 1.0
+Hash: 3383c002e4cb7e9a7b04f10053ae09dd
 
 Package: zoo
 Source: CRAN

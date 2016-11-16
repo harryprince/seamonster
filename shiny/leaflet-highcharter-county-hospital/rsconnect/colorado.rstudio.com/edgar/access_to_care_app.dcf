@@ -1,0 +1,10 @@
+name: access_to_care_app
+title: Access to Care App
+account: edgar
+server: colorado.rstudio.com
+appId: 57
+bundleId: 154
+url: http://colorado.rstudio.com:3939/content/57/
+when: 1479323279.48714
+asMultiple: FALSE
+asStatic: FALSE
