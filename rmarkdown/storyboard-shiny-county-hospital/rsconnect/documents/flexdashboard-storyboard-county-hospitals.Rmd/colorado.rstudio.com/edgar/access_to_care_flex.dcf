@@ -1,0 +1,10 @@
+name: access_to_care_flex
+title: Access to Care Flex
+account: edgar
+server: colorado.rstudio.com
+appId: 51
+bundleId: 155
+url: http://colorado.rstudio.com:3939/content/51/
+when: 1479326240.81667
+asMultiple: FALSE
+asStatic: FALSE
