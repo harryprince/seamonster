@@ -152,7 +152,7 @@ This exercise is worth 1200 points. Results are based on successfully emailing N
 Person | Rank | Points
 --------- | ----- | --------
 **Jim** | **1** | **1200**
-Pete | - | -
+Pete | 3 | 800
 Mark | 2 | 1000
 Phil | - | -
 Jonathan | - | -
