@@ -160,35 +160,4 @@ Hint: You can use `sql_render` to generate the SQL statement from you dplyr code
 
 Post your completed R Markdown document on RStudio connect and email Nathan.
 
-### Solution
-
-```{r}
-ex1_dplyr <- flights %>%
-  filter(origin == "JFK" & dest == "SFO") %>%
-  group_by(month) %>%
-  summarize(dep_delay = mean(dep_delay), arr_delay = mean(arr_delay)) %>%
-  collect
-
-qplot(dep_delay, arr_delay, data = ex1_dplyr, geom = "point")
-```
-
-```{r}
-sql_render(flights %>%
-  filter(origin == "JFK" & dest == "SFO") %>%
-  group_by(month) %>%
-  summarize(dep_delay = mean(dep_delay), arr_delay = mean(arr_delay))
-)
-```
-
-```{sql, connection=db, output.var="ex1_sql"}
-SELECT `month`, AVG(`dep_delay`) AS `dep_delay`, AVG(`arr_delay`) AS `arr_delay`
-FROM (SELECT *
-FROM `flights`
-WHERE (`origin` = 'JFK' AND `dest` = 'SFO'))
-GROUP BY `month`
-```
-
-```{r}
-qplot(dep_delay, arr_delay, data = ex1_sql, geom = "point")
-```
 

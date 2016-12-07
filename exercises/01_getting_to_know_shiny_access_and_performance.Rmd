@@ -1,6 +1,6 @@
 ---
-title: "RSC Exercise 1"
-subtitle: "Getting to know Shiny access and performance"
+title: "Exercise 1"
+subtitle: "RSC: Getting to know Shiny access and performance"
 output: html_notebook
 ---
 

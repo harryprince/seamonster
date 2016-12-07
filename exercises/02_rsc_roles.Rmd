@@ -1,6 +1,6 @@
 ---
-title: "RSC Exercise 2"
-subtitle: Getting to know user roles
+title: "Exercise 2"
+subtitle: "RSC: Getting to know user roles"
 output:
   html_document: default
   html_notebook: default
