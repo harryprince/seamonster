@@ -46,7 +46,7 @@ ggplot(data=df, aes(x=Date, y=Close)) + geom_line() + geom_smooth() + ggtitle(pa
 This model is fit with the arima function in the forecast package on the last 3 months of trading data. The forecast for the next 7 days is plotted.
 
 ```{r forecast}
-m <- arima(recent[,1], order = c(2,1,2))
+m <- arima(recent[,1], order = c(1,1,1))
 f <- forecast(m, 7)
 plot(f, main="")
 ```

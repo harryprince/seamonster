@@ -65,7 +65,7 @@ datatable(df) %>%
 ## Model
 
 ```{r, warning=FALSE, message=FALSE}
-m <- arima(recent[,1], c(3,1,2))
+m <- arima(recent[,1], c(1,1,1))
 f <- forecast(m,7)
 ```
 
