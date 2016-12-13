@@ -37,8 +37,10 @@ latex_dependency	latex_dependency
 md_document	md_document
 metadata	metadata
 navbar_html	navbar_html
+navbar_links_html	navbar_html
 odt_document	odt_document
 output_format	output_format
+paged_table	paged_table
 pandoc_args	pandoc_args
 pandoc_available	pandoc_available
 pandoc_convert	pandoc_convert
@@ -65,6 +67,9 @@ rmarkdown_format	rmarkdown_format
 rmd_metadata	rmd_metadata
 rtf_document	rtf_document
 run	run
+shiny_prerendered_chunk	shiny_prerendered_chunk
+shiny_prerendered_clean	shiny_prerendered_clean
+shiny_prerendered_server_start_code	shiny_prerendered_server_start_code
 site_config	render_site
 site_generator	render_site
 slidy_presentation	slidy_presentation

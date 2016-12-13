@@ -32,6 +32,8 @@ metadata                The YAML metadata of the current R Markdown
                         document
 odt_document            Convert to an OpenDocument Text (ODT) document
 output_format           Define an R Markdown output format
+paged_table             Create a table in HTML with support for paging
+                        rows and columns
 pandoc_args             Functions for generating pandoc command line
                         arguments
 pandoc_available        Check pandoc availabilty and version
@@ -57,6 +59,11 @@ rmarkdown_format        R Markdown input format definition
 rmd_metadata            R Markdown Metadata
 rtf_document            Convert to an RTF document
 run                     Run a Shiny document
+shiny_prerendered_chunk
+                        Add code to a shiny_prerendered context
+shiny_prerendered_clean
+                        Clean prerendered content for the specified Rmd
+                        input file
 slidy_presentation      Convert to a slidy presentation
 tufte_handout           Tufte handout format (PDF)
 word_document           Convert to an MS Word document
